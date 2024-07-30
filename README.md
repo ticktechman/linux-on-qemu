@@ -35,5 +35,6 @@ kenv.kernel
 kenv.run
 ```
 
+> By the way, `Ctrl+a+x` to quit qemu VM.
 
 ENJOY IT.
