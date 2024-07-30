@@ -14,25 +14,25 @@ What do we need:
 How to create this environment:
 
 ```bash
-source kenv.sh 
+source mk.sh 
 
 ## install host deps software
-kenv.deps
+mk.deps
 
 ## download source code of linux kernel and busybox
-kenv.source.download
+mk.source.download
 
 ## create a rootfs image(ext4) and mount it to root directory
-kenv.rootfs
+mk.rootfs
 
 ## build busybox and install it to root filesystem
-kenv.busybox 
+mk.busybox 
 
 ## build kernel image
-kenv.kernel
+mk.kernel
 
 ## run a qemu vm based on the kernel image and busybox root filesystem
-kenv.run
+mk.run
 ```
 
 > By the way, `Ctrl+a+x` to quit qemu VM.
