@@ -38,3 +38,6 @@ mk.run
 > By the way, `Ctrl+a+x` to quit qemu VM.
 
 ENJOY IT.
+
+Here is a screenshot:
+![screen shot](images/snapshot.001.webp)
